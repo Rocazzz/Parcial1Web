@@ -1,4 +1,4 @@
-/* Reset básico para márgenes y paddings */
+
 * {
     margin: 0;
     padding: 0;
@@ -72,12 +72,12 @@ body{
     color: rgb(10, 255, 214);
   }
 
-  .habilidades, .proyectos, .contacto {
+  .habilidades, .proyectos, .contacto, .gitignore  {
     padding: 40px 20px;
 }
 
 
-.habilidades-content, .proyectos-content, .contacto-content {
+.habilidades-content, .proyectos-content, .contacto-content, .git-content {
     margin: 0 auto;
     max-width: 800px;
 }
@@ -140,4 +140,26 @@ body{
     margin-top: 10px;
     color: #fff;
     font-size: 16px;
+}
+
+.git-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.git-content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.git-content code {
+    background-color: #444;
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: #e0e0e0;
+}
+
+.git-content strong {
+    display: block;
+    margin-top: 10px;
 }
