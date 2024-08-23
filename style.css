@@ -89,6 +89,12 @@ body{
     justify-content: center;
 }
 
+.boto div:hover {
+    transform: scale(1.1);
+    color: #59cbda; 
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
 .boto img{
     margin-top: 30px;
     width: 60px;
